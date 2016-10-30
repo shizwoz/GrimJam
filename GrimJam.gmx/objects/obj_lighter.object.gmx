@@ -93,6 +93,7 @@ instance_create(0, 0, obj_flashlight);
 global.flashlight = true;
 instance_destroy();
 }
+audio_play_sound(snd_flashlight, 2, false);
 
 </string>
           </argument>

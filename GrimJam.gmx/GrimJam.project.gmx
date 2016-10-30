@@ -12,6 +12,11 @@
     <sound>sound\snd_walking</sound>
     <sound>sound\snd_elecut</sound>
     <sound>sound\snd_radio</sound>
+    <sound>sound\snd_alcohol</sound>
+    <sound>sound\snd_bodyLivingroom</sound>
+    <sound>sound\snd_sinkFlooding</sound>
+    <sound>sound\snd_flashlight</sound>
+    <sound>sound\snd_pressQ</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player_moving</sprite>
@@ -36,6 +41,7 @@
       <sprite>sprites\spr_battery_life</sprite>
       <sprite>sprites\spr_intro</sprite>
       <sprite>sprites\spr_test_btn</sprite>
+      <sprite>sprites\spr_creditsPage</sprite>
     </sprites>
     <sprites name="furniture">
       <sprite>sprites\spr_bloodyTable</sprite>
@@ -55,6 +61,13 @@
       <sprite>sprites\spr_bookshelf</sprite>
       <sprite>sprites\spr_stove</sprite>
       <sprite>sprites\spr_radio</sprite>
+      <sprite>sprites\spr_tubEmpty</sprite>
+      <sprite>sprites\spr_sinkEmpty</sprite>
+      <sprite>sprites\spr_beerCan</sprite>
+      <sprite>sprites\spr_sinkFull</sprite>
+      <sprite>sprites\spr_spiderweb</sprite>
+      <sprite>sprites\spr_tubFull</sprite>
+      <sprite>sprites\sor_table</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -89,6 +102,7 @@
       <object>objects\obj_menuMusic</object>
       <object>objects\obj_splashtimer</object>
       <object>objects\obj_testrm</object>
+      <object>objects\obj_creditsPage</object>
     </objects>
     <objects name="lighting">
       <object>objects\obj_lightingHandler</object>
@@ -116,6 +130,14 @@
       <object>objects\obj_bookshelf</object>
       <object>objects\obj_stove</object>
       <object>objects\obj_radio</object>
+      <object>objects\obj_tubEmpty</object>
+      <object>objects\obj_sinkEmpty</object>
+      <object>objects\obj_beerCan</object>
+      <object>objects\obj_beerSpecial</object>
+      <object>objects\obj_sinkFull</object>
+      <object>objects\obj_spiderweb</object>
+      <object>objects\obj_tubFull</object>
+      <object>objects\obj_table</object>
     </objects>
   </objects>
   <timelines name="timelines">

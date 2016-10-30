@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>locked = true;
+            <string>//locked = true;
 
 open = false; 
 openPosition = x+64;
@@ -56,7 +56,7 @@ closePosition = x;
 //If in the vicinity of the player, open when E pressed
 if distance_to_object (obj_player) &lt; 32
 {   
-    if( keyboard_check_pressed(ord('E')) &amp;&amp; locked == false)
+    if( keyboard_check_pressed(ord('E')) )// &amp;&amp; locked == false)
         open = !open;
 }
 

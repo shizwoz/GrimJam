@@ -32,7 +32,7 @@
     </event>
   </entry>
   <entry>
-    <step>500</step>
+    <step>1350</step>
     <event>
       <action>
         <libid>1</libid>
@@ -54,6 +54,7 @@
 {
     cutscene = false;
 }
+audio_play_sound(snd_pressQ, 1, false);
 </string>
           </argument>
         </arguments>

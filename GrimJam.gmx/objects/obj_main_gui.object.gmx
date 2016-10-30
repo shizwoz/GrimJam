@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>27000</string>
+            <string>9000</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -121,7 +121,7 @@ instance_create(0,0,obj_lighter);
 draw_set_color(c_black);
 draw_rectangle(view_xview[0] + 6, view_yview[0] + 6, view_xview[0] + 170, view_yview[0] + 25, false);
 
-percent = (alarm_get(1) / 270);
+percent = (alarm_get(1) / 90);
 amount = (percent * 164) / 100;
 
 if(global.flashlight)
